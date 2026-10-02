@@ -1,0 +1,28 @@
+/* ========================
+TOKENS
+=========================== */
+:root {
+  /* Cores */
+  --bg-color: #0f3d3e; /* fundo da página */
+  --second-bg-color: #16494b; /* cards, header, seções alternadas */
+  --main-color: #c8e86b; /* destaque: hover, bordas, glow */
+  --white-color: #fff4e0; /* texto principal (branco creme) */
+  --disabled-color: #6f8f8b; /* texto/elementos desativados */
+
+  /* opcional: a mesma cor em canais RGB, para criar transparências */
+  --main-color-rgb: 200 232 107;
+
+  /* Familia de fontes */
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+
+  /* Escala fluida (320px → 1240px) */
+  --step--1: clamp(0.833rem, 0.81rem + 0.12vw, 0.9rem); /* legendas, tags */
+  --step-0: clamp(1rem, 0.957rem + 0.22vw, 1.125rem); /* corpo */
+  --step-1: clamp(1.2rem, 1.128rem + 0.36vw, 1.406rem); /* texto de destaque */
+  --step-2: clamp(1.44rem, 1.329rem + 0.55vw, 1.758rem); /* h4 */
+  --step-3: clamp(1.728rem, 1.565rem + 0.82vw, 2.197rem); /* h3 */
+  --step-4: clamp(2.074rem, 1.84rem + 1.17vw, 2.747rem); /* h2 */
+  --step-5: clamp(2.488rem, 2.159rem + 1.64vw, 3.433rem); /* h1 */
+}
